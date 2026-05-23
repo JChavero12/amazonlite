@@ -1,0 +1,27 @@
+{
+  "name": "taller_gateway",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gateway de microservicios para Amazon LITE - API Gateway",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "AWS",
+    "API Gateway",
+    "Microservices"
+  ],
+  "author": "JChavero",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.161",
+    "@types/jsonwebtoken": "^9.0.10",
+    "serverless-localstack": "^1.4.0",
+    "serverless-localstack-plugin": "^0.0.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
+}

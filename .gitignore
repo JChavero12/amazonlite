@@ -1,0 +1,8 @@
+# LocalStack
+localstack/.env
+localstack/volume/
+
+# taller_gateway
+taller_gateway/node_modules/
+taller_gateway/dist/
+taller_gateway/.serverless/
